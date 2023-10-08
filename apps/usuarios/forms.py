@@ -90,7 +90,3 @@ class CadastroForms(forms.Form):
                 raise forms.ValidationError("Senhas não são iguais.")
             else:
                 return senha_2
-            
-        # if form["senha_1"].value() != form['senha_2'].value():
-        #         messages.error(request, 'Senhas não são iguais')
-        #         return redirect('cadastro')
